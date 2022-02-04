@@ -1,0 +1,36 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0 4rem 0;
+  width: 100%;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  opacity: 0.7;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+li a {
+  justify-content: space-evenly;
+  color: #85b4ae;
+  letter-spacing: 2px;
+  font-size: 24px;
+  padding: 20px;
+  margin-top: 5px;
+}
+
+h1 {
+  font-size: 30px;
+}
