@@ -11,6 +11,7 @@ header {
   padding-bottom: 20px;
   width: 100%;
   text-align: center;
+  border: 2px solid black;
 }
 
 caption {
@@ -34,7 +35,7 @@ nav ul {
 li a {
   color: #85b4ae;
   letter-spacing: 2px;
-  font-size: 24px;
+  font-size: 18px;
   padding: 20px;
   margin-top: 5px;
 }
@@ -57,7 +58,7 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 500px;
+  height: 75vh;
   opacity: 0.9;
 }
 
@@ -68,6 +69,48 @@ img {
   color: white;
   padding: top;
 }
+.form-container {
+  padding-top: 10px;
+  grid-column: 1 / 3;
+  grid-row: 1 / 4;
+  background-color: #39537b;
+  align-items: left;
+  align-content: left;
+  height: 50vh;
+  justify-content: left;
+}
+
+form {
+  display: grid;
+  border: 2px solid #bb778a;
+  border-radius: 7px;
+  align-content: left;
+  align-items: left;
+  text-align: left;
+  justify-content: left;
+  margin-top: 15%;
+  margin-left: 10px;
+  text-align: center;
+  height: 90%;
+}
+
+label {
+  padding: 3px;
+}
+
+input {
+  width: 100%;
+}
+
+button {
+  margin: 10px 0px 25px 0px;
+  display: flex;
+  justify-content: center;
+  background-color: #bb778a;
+  color: white;
+  font-weight: 500px;
+}
+
 /************************/
 /**** grid-container ****/
 /************************/
@@ -79,27 +122,29 @@ img {
   height: 100%;
 }
 
-.form-container {
-  padding-top: 10px;
-  grid-column: 1 / 3;
-  grid-row: 1 / 4;
+.content {
   background-color: #39537b;
-  align-items: left;
-  align-content: left;
+  display: grid;
+  grid-column: span 2;
+  border: 3px solid #bb778a;
+  grid-row: span 3;
   width: 100%;
   height: 50vh;
-  justify-content: left;
+  display: grid;
+  text-align: center;
+  align-content: center;
+  color: white;
+  text-align: center;
+  height: 50vh;
 }
 
-form > * {
-  align-content: center;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  margin-left: 30px;
-  margin-right: 30px;
-  width: 90%;
-  height: 100%;
+.content h2 {
+  font-size: 50px;
+}
+
+.content p {
+  margin: 50px;
+  font-size: 30px;
 }
 
 .synopsis {
@@ -109,9 +154,14 @@ form > * {
   display: grid;
   grid-column: span 2;
   grid-row: span 3;
+  width: 100%;
+  height: 50vh;
+  display: grid;
   text-align: center;
   align-content: center;
   color: white;
+  text-align: center;
+  height: 50vh;
 }
 
 .characters {
@@ -129,12 +179,23 @@ form > * {
 }
 
 .ghibli {
+  background-color: #39537b;
   grid-column: span 2;
   grid-row: span 3;
+  border: 3px solid #bb778a;
   width: 100%;
   height: 50vh;
   display: grid;
   text-align: center;
   align-content: center;
   color: white;
+}
+
+.ghibli h2 {
+  font-size: 50px;
+}
+
+.ghibli p {
+  margin: 50px;
+  font-size: 30px;
 }
