@@ -1,9 +1,12 @@
+/************************/
+/**** navigation bar ****/
+/************************/
 header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 2rem 0 4rem 0;
+  margin-top: 20px;
   width: 100%;
   text-align: center;
 }
