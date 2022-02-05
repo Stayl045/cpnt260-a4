@@ -14,6 +14,8 @@ header {
   border: 2px solid black;
   color: white;
   font-family: "Open Sans", sans-serif;
+  animation: slide-in 1000ms;
+  animation-timing-function: linear;
 }
 
 nav {
@@ -44,6 +46,7 @@ li a:hover {
 
 h1 {
   font-size: 30px;
+  animation: color-change 7s infinite;
 }
 
 /************************/
@@ -70,6 +73,8 @@ h1 {
 .call-action {
   margin-top: 30px;
   margin-left: 100px;
+  animation: slide-in 1000ms;
+  animation-timing-function: linear;
 }
 
 .call-action button {
@@ -91,15 +96,14 @@ h1 {
 /************************/
 form {
   display: grid;
-  border: 2px solid #bb778a;
   padding: 20px;
   border-radius: 7px;
   align-content: center;
   align-items: center;
   justify-content: center;
   margin-left: 10px;
+  background-color: #8697a4;
   text-align: center;
-  /* height: 90%; */
 }
 
 form h2 {
@@ -117,7 +121,8 @@ form h2 {
 
 label {
   padding: 3px;
-  color: #bb778a;
+  color: black;
+  opacity: 0.7;
 }
 
 input {
@@ -243,6 +248,15 @@ button {
   padding: 150px;
 }
 
+/***** Icons *********/
+.fa-dashcube {
+  margin-right: 10px;
+}
+
+.fa-film {
+  margin-right: 10px;
+}
+
 /**** Footer *****/
 footer {
   display: flex;
@@ -257,4 +271,32 @@ footer {
   font-size: 18px;
   font-weight: 900;
   font-family: "Open Sans", sans-serif;
+}
+
+/* Key Frames */
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes color-change {
+  0% {
+    color: #bb778a;
+  }
+  25% {
+    color: #689971;
+  }
+  50% {
+    color: white;
+  }
+  75% {
+    color: #bb778a;
+  }
+  100% {
+    color: #efe4ab;
+  }
 }
