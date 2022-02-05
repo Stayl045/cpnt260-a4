@@ -1,4 +1,4 @@
-### CPNT-260 Assignment 3: Stephan's Images Gallery of Adrians Art
+### CPNT-260 Assignment 4: Stephan's Howls Moving Castle Gallery Home Page
 
 ## Stephan Taylor
 
