@@ -33,3 +33,5 @@ https://stayl045.github.io/cpnt260-a3/
 - Image of [Sophie](https://www.ghibli.jp/works/howl/#frame&gid=1&pid=40) from Studio [Ghibli](https://www.ghibli.jp/)
 
 - Image of [Castle](https://www.ghibli.jp/works/howl/#frame&gid=1&pid=40) from Studio [Ghibli](https://www.ghibli.jp/)
+
+- Image of Young [Howl](https://www.ghibli.jp/works/howl/#frame&gid=1&pid=40) from Studio [Ghibli](https://www.ghibli.jp/)
