@@ -55,6 +55,7 @@ h1 {
   background-repeat: no-repeat;
   width: 100%;
   height: 75vh;
+  display: flex;
   opacity: 0.9;
 }
 
@@ -64,18 +65,12 @@ h1 {
   align-items: start;
   color: white;
   padding: top;
-}
-.form-container {
-  padding-top: 10px;
-  grid-column: 1 / 3;
-  grid-row: 1 / 4;
-  background-color: #39537b;
-  align-items: left;
-  align-content: left;
-  height: 50vh;
-  justify-content: left;
+  width: 100%;
 }
 
+/************************/
+/**** Form Container ****/
+/************************/
 form {
   display: grid;
   border: 2px solid #bb778a;
@@ -84,10 +79,33 @@ form {
   align-items: left;
   text-align: left;
   justify-content: left;
-  margin-top: 15%;
   margin-left: 10px;
   text-align: center;
-  height: 90%;
+  /* height: 90%; */
+}
+
+.action {
+  grid-column: span 4;
+  grid-row: span 4;
+  padding: 50px;
+  background: #39537b;
+}
+
+.call-action {
+  margin-top: 15%;
+  margin-left: 10%;
+}
+
+.call-action button {
+  border: none;
+  background-color: #39537b;
+  color: white;
+  border-radius: 5px;
+  padding: 15px;
+}
+.call-action button a {
+  height: 100%;
+  width: 100%;
 }
 
 label {
@@ -125,17 +143,17 @@ button {
   border: 3px solid #bb778a;
   grid-row: span 3;
   width: 100%;
-  height: 50vh;
+  /* height: 50vh; */
   display: grid;
   text-align: center;
   align-content: center;
   color: white;
   text-align: center;
-  height: 50vh;
 }
 
 .content h2 {
-  font-size: 50px;
+  padding-top: 40px;
+  font-size: 40px;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -153,13 +171,13 @@ button {
   grid-column: span 2;
   grid-row: span 3;
   width: 100%;
-  height: 50vh;
+  /* height: 50vh; */
   display: grid;
   text-align: center;
   align-content: center;
   color: white;
   text-align: center;
-  height: 50vh;
+  padding: 150px;
 }
 
 .characters {
@@ -169,7 +187,8 @@ button {
   grid-column: span 2;
   grid-row: span 3;
   width: 100%;
-  height: 50vh;
+  padding: 150px;
+  /* height: 50vh; */
   display: grid;
   text-align: center;
   align-content: center;
@@ -182,7 +201,7 @@ button {
   grid-row: span 3;
   border: 3px solid #bb778a;
   width: 100%;
-  height: 50vh;
+  /* height: 50vh; */
   display: grid;
   text-align: center;
   align-content: center;
@@ -192,6 +211,7 @@ button {
 .ghibli h2 {
   font-size: 40px;
   font-family: "Open Sans", sans-serif;
+  padding-top: 40px;
 }
 
 .ghibli p {
