@@ -1,4 +1,4 @@
-### CPNT-260 Assignment 4: Stephan's Howls Moving Castle Gallery Home Page
+### CPNT-260 Assignment 4: Stephan Taylor's Howls Moving Castle Gallery Home Page
 
 ## Stephan Taylor
 
